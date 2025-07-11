@@ -34,9 +34,10 @@ public class Student {
 		
 	}
 
-	public Student(String name, String address) {
+	public Student(String name, String address, String degree) {
 		this.name = name;
 		this.address = address;
+		this.degree = degree;
 	}
 
 	public int getId() {
